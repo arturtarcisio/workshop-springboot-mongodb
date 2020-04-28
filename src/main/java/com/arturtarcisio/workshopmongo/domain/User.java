@@ -2,12 +2,11 @@ package com.arturtarcisio.workshopmongo.domain;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.io.Serializable;
 import java.util.Objects;
 
-@Document(collection = "user")
+@Document
 public class User implements Serializable {
 
     @Id
